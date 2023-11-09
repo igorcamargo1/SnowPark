@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T48JodfpyfYC+ObNee6uGlJNYVN6BpAaJ2+TbhXmk7gpsLux7dnV+dc/BiiSo7UxD4ZXDx1FfOzt7RjspJOlWg==",
+  "dgSpecHash": "tZ86t8jtAdbmRX3I1vWKJqTmn6ma1d8wlIweLTufw3OBvgrKzO1XiqXEwOq0W3rmvuVvfAHOYF+ur60MvrfnMA==",
   "success": true,
-  "projectFilePath": "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\SnowPark.csproj",
+  "projectFilePath": "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\SnowPark.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igcamargo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\igcamargo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

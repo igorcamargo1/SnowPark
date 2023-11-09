@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\SnowPark.csproj": {}
+    "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\SnowPark.csproj": {}
   },
   "projects": {
-    "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\SnowPark.csproj": {
+    "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\SnowPark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\SnowPark.csproj",
+        "projectUniqueName": "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\SnowPark.csproj",
         "projectName": "SnowPark",
-        "projectPath": "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\SnowPark.csproj",
+        "projectPath": "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\SnowPark.csproj",
         "packagesPath": "C:\\Users\\igcamargo\\.nuget\\packages\\",
-        "outputPath": "C:\\igcamargo\\GIT\\igorcamargo1\\SnowPark\\SnowPark\\SnowPark\\obj\\",
+        "outputPath": "C:\\Users\\igcamargo\\Documents\\fiap\\materias\\entreprise\\SnowPark1\\SnowPark\\SnowPark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
