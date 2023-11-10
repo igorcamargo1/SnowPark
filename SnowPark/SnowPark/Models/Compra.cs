@@ -23,9 +23,19 @@ public class Compra
     [Column("Ds_Servico"), Required, Display(Name = "Serviço")]
     public Servico Servico { get; set; }
 
+    [Required, MaxLength(11)]
+    public string? Telefone { get; set; }
+
+    [Required, Column("Tp_Pagamento")]
+    public TipoPagamento TipoPagamento { get; set; }
 }
 
 public enum Servico
 {
     Teleferico, SnowMobile, PacoteCompleto, Esquiar
+}
+
+public enum TipoPagamento
+{
+    Dinheiro, Cartão, Pix
 }

@@ -1,5 +1,67 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<Compra>
+
 @{
+    ViewData["Title"] = "Index";
 }
+
+<h1>Minhas Compras</h1>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-dismissible alert-danger">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        @TempData["msg"]
+    </div>
+}
+
+
+<table class="table table-striped">
+    <tr>
+        <th>Nome</th>
+        <th>Cpf</th>
+        <th>Data Nascimento</th>
+        <th>Serviço</th>
+        <th>Telefone</th>
+        <th>Forma de Pagamento</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nome</td>
+            <td>@item.Cpf</td>
+            <td>@item.DataVisita.ToShortDateString()</td>
+            <td>@item.Servico</td>
+            <td>@item.Telefone</td>
+            <td>@item.TipoPagamento</td>
+            <td>
+                <!-- Button trigger modal -->
+                <button onclick="key.value = @item.CompraId" type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Cancelar compra
+                </button>
+            </td>
+        </tr>
+    }
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmação</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Deseja realmente cancelar a compra?
+            </div>
+            <div class="modal-footer">
+                <form asp-action="cancelar">
+                    <input type="hidden" name="id" id="key" />
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                    <button type="submit" class="btn btn-danger">Sim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

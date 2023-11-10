@@ -16,12 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\igcamargo\Documents\fiap\materias\entreprise\SnowPark1\SnowPark\SnowPark
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/Servicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/SobreNos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Shared/Error.cshtml]

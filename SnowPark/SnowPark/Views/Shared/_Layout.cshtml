@@ -11,30 +11,32 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">SnowPark</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="d-flex w-200 justify-content-between">
+                <a class="navbar-brand text-light " asp-controller="Home" asp-action="Index">SnowPark</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link active" asp-controller="Home" asp-action="Index">
                             Home
                             <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Nós</a>
-                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ticket</a>
+                        <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ticket</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Minhas Compras</a>
-                            <a class="dropdown-item" href="#">Comprar Ingresso</a>
+                            <a class="dropdown-item" asp-action="index" asp-controller="compra">Minhas Compras</a>
+                            <a class="dropdown-item" asp-action="cadastrar" asp-controller="compra">Comprar Ingresso</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="SobreNos">Sobre Nós</a>
                     </li>
                 </ul>
             </div>

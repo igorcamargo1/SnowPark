@@ -9,37 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SnowPark
 build_property.RootNamespace = SnowPark
-build_property.ProjectDir = C:\igcamargo\GIT\igorcamargo1\SnowPark\SnowPark\SnowPark\
+build_property.ProjectDir = C:\Users\igcamargo\Documents\fiap\materias\entreprise\SnowPark1\SnowPark\SnowPark\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\igcamargo\GIT\igorcamargo1\SnowPark\SnowPark\SnowPark
+build_property.MSBuildProjectDirectory = C:\Users\igcamargo\Documents\fiap\materias\entreprise\SnowPark1\SnowPark\SnowPark
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/Home/Index.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Compra/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/Servicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/Shared/Error.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Home/SobreNos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/_ViewImports.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/_ViewStart.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/igcamargo/GIT/igorcamargo1/SnowPark/SnowPark/SnowPark/Views/Shared/_Layout.cshtml]
+[C:/Users/igcamargo/Documents/fiap/materias/entreprise/SnowPark1/SnowPark/SnowPark/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qwp1v4i4pa

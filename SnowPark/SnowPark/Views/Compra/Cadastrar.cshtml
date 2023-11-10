@@ -1,0 +1,33 @@
+﻿<style>
+    .custom-button {
+        margin-left: 50px; /* Adiciona margem no topo */
+    }
+
+    .custom-link {
+        font-size: 30px;
+    }
+</style>
+
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-dismissible alert-success">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        @TempData["msg"]
+    </div>
+}
+
+
+<a class="text-info custom-link" asp-action="index" asp-controller="compra">Minhas Compras</a>
+<form asp-action="cadastrar" class="bg-light">
+
+    <partial name="_Form" />
+
+    <div class="mb-3">
+        <button class="btn btn-outline-success custom-button">Finalizar compra</button>
+    </div>
+
+</form>
+

@@ -3,20 +3,31 @@
 }
 
 <div class="text-center">
-    <div></div>
     <div>
-        <div></div>
         <div>
-            <h3>
-                SEJAM BEM VINDOS
-            </h3>
-            <p>
-                Ao maior parque de ski na neve do Brasil. Aqui você pode se divertir com toda sua familia e amigos.
-                Reserve já sua visita e não fique de fora dessa experiência única!
-            </p>
-            <button type="button" class="btn btn-success" asp-action="cadastrar" asp-controller="compra">
-                COMPRAR INGRESSO
-            </button>
+            <div class="jumbotron text-center">
+                <h1>Bem-vindo ao Snow Park!</h1>
+                <p>Divirta-se em um mundo de neve e aventura.</p>
+            </div>
+
+            <!-- Seção de informações -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>O Parque</h2>
+                        <p>Conheça nosso parque de diversões com diversas atrações e experiências na neve para toda a família.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Atrações</h2>
+                        <p>Descubra as emocionantes atividades que oferecemos, como esqui, snowboard, tobogã e muito mais.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Ingressos</h2>
+                        <p>Garanta seus ingressos antecipados e aproveite descontos exclusivos para um dia cheio de diversão.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="text-light btn btn-success" asp-action="cadastrar" asp-controller="compra">COMPRAR INGRESSO</a>
         </div>
     </div>
 </div>
